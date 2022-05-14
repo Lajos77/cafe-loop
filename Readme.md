@@ -1,1 +1,1 @@
-# Cafe Loop
+# Café Loop
