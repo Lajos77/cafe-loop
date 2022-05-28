@@ -17,7 +17,7 @@
 
 	<servlet>
 		<servlet-name>RegistrationServlet</servlet-name>
-		<servlet-class>hu.ak.generics.cafeloop.servlet.RegistrationServlet</servlet-class>
+		<servlet-class>hu.tozsalajos.cafeloop.servlet.RegistrationServlet</servlet-class>
 	</servlet>
 
 	<servlet-mapping>
@@ -27,7 +27,7 @@
 
 	<servlet>
 		<servlet-name>LoginServlet</servlet-name>
-		<servlet-class>hu.ak.generics.cafeloop.servlet.LoginServlet</servlet-class>
+		<servlet-class>hu.tozsalajos.cafeloop.servlet.LoginServlet</servlet-class>
 	</servlet>
 
 	<servlet-mapping>
@@ -37,7 +37,7 @@
 
 	<servlet>
 		<servlet-name>LogoutServlet</servlet-name>
-		<servlet-class>hu.ak.generics.cafeloop.servlet.LogoutServlet</servlet-class>
+		<servlet-class>hu.tozsalajos.cafeloop.servlet.LogoutServlet</servlet-class>
 	</servlet>
 
 	<servlet-mapping>
@@ -47,7 +47,7 @@
 
 	<servlet>
 		<servlet-name>UpdatePasswordServlet</servlet-name>
-		<servlet-class>hu.ak.generics.cafeloop.servlet.UpdatePasswordServlet</servlet-class>
+		<servlet-class>hu.tozsalajos.cafeloop.servlet.UpdatePasswordServlet</servlet-class>
 	</servlet>
 
 	<servlet-mapping>
@@ -57,7 +57,7 @@
 
 	<servlet>
 		<servlet-name>UpdateCustomerServlet</servlet-name>
-		<servlet-class>hu.ak.generics.cafeloop.servlet.UpdateCustomerServlet</servlet-class>
+		<servlet-class>hu.tozsalajos.cafeloop.servlet.UpdateCustomerServlet</servlet-class>
 	</servlet>
 
 	<servlet-mapping>
@@ -67,7 +67,7 @@
 
 	<filter>
 		<filter-name>SecurityFilter</filter-name>
-		<filter-class>hu.ak.generics.cafeloop.filter.SecurityFilter</filter-class>
+		<filter-class>hu.tozsalajos.cafeloop.filter.SecurityFilter</filter-class>
 	</filter>
 
 	<filter-mapping>
@@ -76,7 +76,7 @@
 	</filter-mapping>
 
 	<listener>
-		<listener-class>hu.ak.generics.cafeloop.listener.DatabaseInitListener</listener-class>
+		<listener-class>hu.tozsalajos.cafeloop.listener.DatabaseInitListener</listener-class>
 	</listener>
 
 </web-app>

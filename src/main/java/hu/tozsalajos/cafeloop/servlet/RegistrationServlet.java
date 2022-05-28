@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.sql.DataSource;
 
-import hu.tozsalajos.cafeloop.Customer;
+import hu.tozsalajos.cafeloop.bo.Customer;
 import hu.tozsalajos.cafeloop.dao.CustomerDao;
 import hu.tozsalajos.cafeloop.dao.Dao;
 import hu.tozsalajos.cafeloop.util.SecurityUtils;

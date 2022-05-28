@@ -10,7 +10,7 @@ import java.util.Optional;
 
 import javax.sql.DataSource;
 
-import hu.tozsalajos.cafeloop.Customer;
+import hu.tozsalajos.cafeloop.bo.Customer;
 import lombok.AllArgsConstructor;
 
 @AllArgsConstructor
